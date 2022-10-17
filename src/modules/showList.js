@@ -4,7 +4,7 @@ const createList = (shows) => {
   const displayContainer = document.getElementById('show-list');
   shows.forEach((item) => {
     displayContainer.innerHTML += `
-    <div class="item">
+    <div class="card">
       <img class="img" src="${item.image.medium}" alt="${item.name} poster">
       <span class="title">
         <h3>${item.name}</h3>
