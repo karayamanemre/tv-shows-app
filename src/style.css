@@ -30,6 +30,31 @@ header {
   font-size: 22px;
 }
 
+main {
+  padding: 25px 100px;
+}
+
+#show-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #000;
+}
+
+.title {
+  display: flex;
+}
+
 footer {
   display: flex;
   align-items: center;
