@@ -39,11 +39,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@KarayamanEmre](https://twitter.com/KarayamanEmre)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emre-karayaman-a7b45b243/)
 
-👤 **Abimbola Favour Adedeji
+👤 **Abimbola Favour Adedeji**
 
-GitHub: [@fayob](https://github.com/fayob)
-Twitter: [@fabimworld2536](https://twitter.com/Fabimworld2536)
-LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
+- GitHub: [@fayob](https://github.com/fayob)
+- Twitter: [@fabimworld2536](https://twitter.com/Fabimworld2536)
+- LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
 
 ## 🤝 Contributing
 
