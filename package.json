@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "javascript-capstone-project",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karayamanemre/webpack.git"
+    "url": "git+https://github.com/karayamanemre/javascript-capstone-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karayamanemre/webpack/issues"
+    "url": "https://github.com/karayamanemre/javascript-capstone-project/issues"
   },
-  "homepage": "https://github.com/karayamanemre/webpack#readme",
+  "homepage": "https://github.com/karayamanemre/javascript-capstone-project#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
