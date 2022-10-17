@@ -32,7 +32,7 @@ header {
 
 main {
   display: flex;
-  justif-content: center;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -43,7 +43,7 @@ main {
   width: 100%;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

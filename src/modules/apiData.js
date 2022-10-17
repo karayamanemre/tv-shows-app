@@ -1,4 +1,4 @@
-import createList from "./showList.js";
+import createList from './showList.js';
 
 const fetchData = async () => {
   const response = await fetch('https://api.tvmaze.com/shows');
