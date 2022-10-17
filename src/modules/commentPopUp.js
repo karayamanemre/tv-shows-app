@@ -10,7 +10,7 @@ const popUpHandler = (shows) => {
       popUpPage.classList.add('visible');
       popUpPage.innerHTML = `
         <div class='popup_container'>
-          <img class='img' src='${actualButton.image.medium}' alt='${actualButton.name}'>
+          <img class='popup_img' src='${actualButton.image.medium}' alt='${actualButton.name}'>
           <img class='close_icon' src='${closeIcon}'>
           <h2>${actualButton.name}</h2>
           <h4>Genres: ${actualButton.genres}</h4>
