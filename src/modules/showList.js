@@ -6,10 +6,10 @@ const createList = (shows) => {
     displayContainer.innerHTML += `
     <div class="card">
       <img class="img" src="${item.image.medium}" alt="${item.name} poster">
-      <span class="title">
+      <div class="title">
         <h3>${item.name}</h3>
-        <img src="./assets/like-icon.png">
-      </span>
+        <img src="${LikeIcon}">
+      </div>
       <p>Genres: ${item.genres}</p>
       <button>Comment</button>
     </div>

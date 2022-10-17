@@ -41,7 +41,6 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  gap: 5px;
 }
 
 .card{
@@ -51,8 +50,8 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  border: 2px solid #000;
   min-width: 25%;
+  margin-bottom: 20px;
 }
 
 .img {
@@ -62,8 +61,18 @@ main {
 }
 
 .title {
+  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+}
+
+button {
+  background: #fff;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
 }
 
 footer {
