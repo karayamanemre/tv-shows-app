@@ -30,6 +30,52 @@ header {
   font-size: 22px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#show-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  min-width: 25%;
+  margin-bottom: 20px;
+}
+
+.img {
+  min-width: 80%;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+button {
+  background: #fff;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
 footer {
   display: flex;
   align-items: center;
