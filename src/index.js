@@ -12,4 +12,4 @@ logoDiv.appendChild(logo);
 
 fetchData();
 displayShows();
-popUpHandler()
+popUpHandler();
