@@ -99,7 +99,7 @@ button {
   left: 0;
   display: none;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -112,9 +112,12 @@ button {
   padding: 1rem;
   background: white;
   max-width: 60vw;
-  max-height: 95vh;
+  max-height: 90vh;
+  overflow: scroll;
   margin: 0 auto;
   z-index: 3;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .popup_container::-webkit-scrollbar {
@@ -130,8 +133,8 @@ button {
 
 .popup_img {
   display: inline-block;
-  max-width: 70%;
-  margin: 0 auto;
+  max-width: 80%;
+  margin: 1rem auto;
   border-radius: 20px;
 }
 
@@ -139,9 +142,45 @@ button {
   margin-bottom: 0.6rem;
 }
 
+.popup_container p {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .popup_container h4 {
   margin: 0.4rem 0;
   font-style: italic;
+}
+
+.comment_section h3{
+  margin-bottom: 0.6rem;
+}
+
+.comment_paragraph {
+  font-size: small;
+  font-weight: 500;
+  padding-bottom: 0.6rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 70%;
+  margin: 1rem auto;
+}
+
+input, textarea {
+  padding: 0.4rem;
+}
+
+input::placeholder, textarea::placeholder {
+  padding: 0.2rem;
+}
+
+.submit_button {
+  align-self: flex-end;
+  
 }
 
 footer {
