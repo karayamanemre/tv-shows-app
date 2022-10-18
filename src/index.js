@@ -2,7 +2,6 @@ import './style.css';
 import Logo from './assets/logo.png';
 import displayShows from './modules/showList.js';
 import fetchData from './modules/apiData.js';
-import popUpHandler from './modules/commentPopUp.js';
 import { getLikes, postLikes } from './modules/likeData.js';
 
 const logo = new Image();
@@ -22,4 +21,3 @@ window.addEventListener('click', (e) => {
 getLikes();
 fetchData();
 displayShows();
-popUpHandler();
