@@ -8,4 +8,5 @@ const fetchData = async () => {
   createList(latestShows);
   popUpHandler(latestShows);
 };
+
 export default fetchData;

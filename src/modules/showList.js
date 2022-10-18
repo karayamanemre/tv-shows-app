@@ -6,9 +6,10 @@ const createList = (shows) => {
     displayContainer.innerHTML += `
     <div class="card">
       <img class="img" src="${item.image.medium}" alt="${item.name} poster">
-      <div class="title">
-        <h3>${item.name}</h3>
-        <img src="${LikeIcon}">
+      <h3 class="title">${item.name}</h3>
+      <div class="likes">
+        <p class="like-count" id='${item.id}'>0</p>
+        <img class="like-icon" id='${item.id}' src="${LikeIcon}">
       </div>
       <p>Genres: ${item.genres}</p>
       <button class="comment_button" data-id=${index + 1}>Comment</button>
