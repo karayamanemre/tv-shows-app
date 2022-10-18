@@ -152,7 +152,7 @@ button {
   font-style: italic;
 }
 
-.comment_section h3{
+.comment_section h3 {
   margin-bottom: 0.6rem;
 }
 
@@ -170,17 +170,18 @@ button {
   margin: 1rem auto;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 0.4rem;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   padding: 0.2rem;
 }
 
 .submit_button {
   align-self: flex-end;
-  
 }
 
 footer {
