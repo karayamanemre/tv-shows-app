@@ -9,10 +9,8 @@ const createList = (shows) => {
       <h3 class="title">${item.name}</h3>
       <div class="likes">
         <img class="like-icon" id='${item.id}' src="${LikeIcon}">
-        <p class="like-count" id='${item.id}'>0</p>
+        <p class="like-count" id='${item.id}'>0</p><p>Likes</p>
       </div>
-      <p>Genres:</p>
-      <p>${item.genres}</p>
       <button class="comment_button" data-id=${index + 1}>Comment</button>
     </div>
     `;

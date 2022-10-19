@@ -9,6 +9,7 @@ const popUpHandler = (shows) => {
   const commentButton = document.querySelectorAll('.comment_button');
   commentButton.forEach(async (button) => {
     button.addEventListener('click', async () => {
+      document.body.style.overflow = 'hidden';
       const actualButton = shows.find((show) => show.id === +button.dataset.id);
       popUpPage.classList.add('visible');
       const comments = await showComments(button.dataset.id);
@@ -16,6 +17,7 @@ const popUpHandler = (shows) => {
         <div class='popup_container'>
           <img class='popup_img' src='${actualButton.image.medium}' alt='${actualButton.name}'>
           <img class='close_icon' src='${closeIcon}'>
+          <div>
           <h2>${actualButton.name}</h2>
           <h4>Genres: ${actualButton.genres}</h4>
           <div class='comment_section'>
@@ -26,9 +28,9 @@ const popUpHandler = (shows) => {
             `).join('')}
           </div>`}  
           <form class="form">
-            <h2 class="form_heading">Add Comment<h2/>
+            <h3 class="form_heading">Add Comment<h3/>
             <input type="text" class="username" placeholder="Your Name...">
-            <textarea name="comment" class="comment" cols="30" rows="10" placeholder="Your Insight..."></textarea>
+            <textarea name="comment" class="comment" placeholder="Your Insight..."></textarea>
             <button type='button' class='submit_button'>Add Comment</button>
           </form>
         </div>
@@ -37,6 +39,7 @@ const popUpHandler = (shows) => {
       document.querySelector('.close_icon').addEventListener('click', () => {
         popUpPage.classList.remove('visible');
         popUpPage.innerHTML = '';
+        document.body.style.overflow = 'visible';
       });
 
       addComment(button.dataset.id);

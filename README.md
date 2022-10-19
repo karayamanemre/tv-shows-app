@@ -2,7 +2,7 @@
 
 # Tv Shows App
 
-> 
+> A web app that lets you find out more about a group of TV shows. You can like and comment on your favorite shows. Second capstone project in Microverse.
 
 ## Built With
 
@@ -10,6 +10,8 @@
 - CSS
 - JavaScript
 - Webpack
+- TV Maze API
+- Involvement API
 
 ## Live Demo
 
@@ -30,6 +32,11 @@ To get a local copy up and running follow these simple example steps.
    - To clone my repository run this command `git clone https://github.com/karayamanemre/javascript-capstone-project.git` 
    - Run npm install to install the dependencies.
    - Open the dist/index.html file with a browser.
+
+### Tests
+
+   - Please install Jest to your local environment. 
+   - Run tests using `npm run test` command on your terminal.
 
 ## Authors
 
@@ -57,7 +64,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- 
+- [TvMaze API](https://www.tvmaze.com/api).
+- [Icons8](https://icons8.com/).
 
 ## 📝 License
 
