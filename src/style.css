@@ -189,6 +189,8 @@ button:active {
 
 .no_comment {
   font-weight: 500;
+  font-size: small;
+  padding-bottom: 0.6rem;
 }
 
 .comment_paragraph {
