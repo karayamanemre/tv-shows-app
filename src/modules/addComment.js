@@ -1,4 +1,4 @@
-import countComment from './comment_count.js';
+import countComment from './commentCount.js';
 import showComments from './fetchComment.js';
 
 const api = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/YGalzGQEsNr86NPpSVf9';
