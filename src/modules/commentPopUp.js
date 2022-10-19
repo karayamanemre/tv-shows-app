@@ -1,6 +1,6 @@
 import closeIcon from '../assets/close.png';
 import addComment from './addComment.js';
-import countComment from './comment_count.js';
+import countComment from './commentCount.js';
 import showComments from './fetchComment.js';
 
 const popUpPage = document.querySelector('.popup');
@@ -37,6 +37,7 @@ const popUpHandler = (shows) => {
 
       document.querySelector('.close_icon').addEventListener('click', () => {
         popUpPage.classList.remove('visible');
+        popUpPage.innerHTML = '';
       });
 
       addComment(button.dataset.id);
