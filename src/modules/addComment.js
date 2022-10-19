@@ -1,5 +1,5 @@
-import countComment from './commentCount.js';
 import showComments from './fetchComment.js';
+import renderComment from './renderComment.js';
 
 const api = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/YGalzGQEsNr86NPpSVf9';
 
@@ -9,7 +9,6 @@ const addComment = (id) => {
   const submitButton = document.querySelector('.submit_button');
 
   submitButton.addEventListener('click', async () => {
-    const commentSection = document.querySelector('.comment_section');
     if (!userInput.value) {
       userInput.setCustomValidity('Please input your name');
       userInput.reportValidity();
@@ -39,12 +38,7 @@ const addComment = (id) => {
     });
 
     await showComments(id);
-    const date = new Date().toISOString().slice(0, 10);
-    const p = document.createElement('p');
-    p.classList.add('comment_paragraph');
-    p.textContent = `${date} ${userInput.value}: "${userComment.value}"`;
-    commentSection.appendChild(p);
-    countComment();
+    renderComment(userInput.value, userComment.value);
 
     userInput.value = '';
     userComment.value = '';
