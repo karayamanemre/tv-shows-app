@@ -23,6 +23,6 @@ window.addEventListener('click', (e) => {
 });
 
 showCount();
-getLikes();
 fetchData();
+getLikes();
 createList();
