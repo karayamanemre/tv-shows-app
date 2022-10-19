@@ -19,15 +19,14 @@ const popUpHandler = (shows) => {
           <img class='close_icon' src='${closeIcon}'>
           <div>
           <h2>${actualButton.name}</h2>
-          <h4>${actualButton.genres}</h4></div>
-          <h3>Comments (${comments.error ? 0 : comments.length})<h3/>
+          <h4>Genres: ${actualButton.genres}</h4>
           <div class='comment_section'>
+          <h3 class='comment_heading'>Comments (${comments.error ? 0 : comments.length})<h3/>
           ${comments.error ? '<p class="no_comment"> No comment for this movie</p>' : ` 
             ${comments.map((comment, idx) => `
               <p class='comment_paragraph' key=${idx}>${comment.creation_date} ${comment.username}: "${comment.comment}"</p>
             `).join('')}
-          </div>`
-}  
+          </div>`}  
           <form class="form">
             <h3 class="form_heading">Add Comment<h3/>
             <input type="text" class="username" placeholder="Your Name...">
