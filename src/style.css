@@ -156,6 +156,10 @@ button {
   margin-bottom: 0.6rem;
 }
 
+.no_comment {
+  font-weight: 500;
+}
+
 .comment_paragraph {
   font-size: small;
   font-weight: 500;
@@ -172,12 +176,15 @@ button {
 
 input,
 textarea {
+  width: 100%;
+  margin-bottom: 0.6rem;
   padding: 0.4rem;
 }
 
 input::placeholder,
 textarea::placeholder {
   padding: 0.2rem;
+  font-style: italic;
 }
 
 .submit_button {
