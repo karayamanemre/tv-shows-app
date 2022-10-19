@@ -71,8 +71,8 @@ main {
   border-radius: 10px;
   transition: 0.5s;
   filter: brightness(80%);
-  box-shadow:  6px 6px 10px #d9d9d9,
-  -6px -6px 10px #ffffff;
+  box-shadow: 6px 6px 10px #d9d9d9,
+      -6px -6px 10px #fff;
 }
 
 .img:hover {
@@ -161,11 +161,10 @@ button:active {
 
 .popup_img {
   display: inline-block;
-  border-radius: 10px;
   margin: 10px auto;
   border-radius: 12px;
   box-shadow: 6px 6px 10px #d9d9d9,
-  -6px -6px 10px #ffffff;
+      -6px -6px 10px #fff;
 }
 
 .popup_container h2 {
