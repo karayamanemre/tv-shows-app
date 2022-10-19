@@ -11,6 +11,8 @@ const logoDiv = document.getElementById('logo');
 logo.src = Logo;
 logoDiv.appendChild(logo);
 
+showCount();
+
 window.addEventListener('click', (e) => {
   if (e.target.classList.contains('like-icon')) {
     const targetId = e.target.id;
@@ -22,7 +24,6 @@ window.addEventListener('click', (e) => {
   }
 });
 
-showCount();
 getLikes();
 fetchData();
 createList();
