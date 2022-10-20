@@ -82,11 +82,13 @@ main {
   padding: 15px;
   gap: 15px;
   border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.9) 0px 2px 4px, rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 2px 4px,
+    rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .img {
@@ -96,7 +98,8 @@ main {
   height: 325px;
   border-radius: 10px;
   transition: 0.5s;
-  box-shadow: rgba(0, 0, 0, 0.9) 0px 2px 4px, rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 2px 4px,
+    rgba(0, 0, 0, 0.9) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   cursor: pointer;
   text-align: center;
   align-items: center;
@@ -175,24 +178,24 @@ button {
 }
 
 .button-top {
- display: block;
- box-sizing: border-box;
- border: 2px solid var(--primary-color);
- border-radius: 5px;
- padding: 10px 25px;
- background: var(--secondary-color);
- color: var(--primary-color);
- transform: translateY(-0.2em);
- transition: transform 0.3s ease;
- font-size: 16px;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 10px 25px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  transform: translateY(-0.2em);
+  transition: transform 0.3s ease;
+  font-size: 16px;
 }
 
 button:hover .button-top {
- transform: translateY(-0.3em);
+  transform: translateY(-0.3em);
 }
 
 button:active .button-top {
- transform: translateY(0);
+  transform: translateY(0);
 }
 
 .popup {
@@ -286,7 +289,7 @@ button:active .button-top {
   flex-direction: column;
   gap: 0.6rem;
   max-width: 70%;
-  margin: 1rem auto; 
+  margin: 1rem auto;
 }
 
 input {
