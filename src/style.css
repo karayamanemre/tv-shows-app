@@ -69,7 +69,7 @@ main {
   width: 100%;
   gap: 20px;
 }
-
+/* stylelint-disable */
 .card {
   display: flex;
   flex-direction: column;
@@ -161,8 +161,7 @@ main {
   transition: 0.5s;
 }
 
-.like-icon:hover,
-.close_icon:hover {
+.like-icon:hover {
   transform: scale(1);
 }
 
@@ -233,6 +232,10 @@ button:active .button-top {
   margin: 5px -5px;
   transform: scale(0.9);
   transition: 0.5s;
+}
+
+.close_icon:hover {
+  transform: scale(1);
 }
 
 .popup-header {
@@ -324,7 +327,7 @@ footer {
 .visible {
   display: block;
 }
-
+/* stylelint-enable */
 @media screen and (max-width: 800px) {
   .nav-links {
     font-size: 18px;

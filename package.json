@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "stylelint-check": "stylelint-config-prettier-check"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "jest-environment-jsdom": "^29.2.1",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0",
