@@ -17,8 +17,6 @@ logo.src = Logo;
 logoDiv.appendChild(logo);
 loaderDiv.appendChild(loader);
 
-showCount();
-
 const listLoaded = () => {
   if (showList.children.length > 0) {
     loaderDiv.hidden = true;
@@ -38,6 +36,7 @@ window.addEventListener('click', (e) => {
 
 window.addEventListener('load', listLoaded);
 
+showCount();
 fetchData();
 getLikes();
 createList();
