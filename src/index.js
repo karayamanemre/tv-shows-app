@@ -10,20 +10,11 @@ const logo = new Image();
 const loader = new Image();
 const logoDiv = document.getElementById('logo');
 const loaderDiv = document.getElementById('loader');
-const showList = document.getElementById('show-list');
 
 loader.src = Loader;
 logo.src = Logo;
 logoDiv.appendChild(logo);
 loaderDiv.appendChild(loader);
-
-const listLoaded = () => {
-  if (showList.children.length > 0) {
-    loaderDiv.hidden = true;
-  }
-};
-
-window.addEventListener('load', listLoaded);
 
 window.addEventListener('click', (e) => {
   if (e.target.classList.contains('like-icon')) {
