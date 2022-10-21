@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Tv Shows App](https://karayamanemre.github.io/javascript-capstone-project/dist/)
+[Tv Shows App](https://karayamanemre.github.io/tv-shows-app/dist/)
 
 ## Video Presentation
 
@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- To clone my repository run this command `git clone https://github.com/karayamanemre/javascript-capstone-project.git`
+- To clone my repository run this command `git clone https://github.com/karayamanemre/tv-shows-app.git`
 - Run npm install to install the dependencies.
 - Open the dist/index.html file with a browser.
 
