@@ -27,20 +27,20 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-   - Please install git in your computer.
-   - Also install a code editor.
-   - A web browser to view the output.
+- Please install git in your computer.
+- Also install a code editor.
+- A web browser to view the output.
 
 ### Setup
 
-   - To clone my repository run this command `git clone https://github.com/karayamanemre/javascript-capstone-project.git` 
-   - Run npm install to install the dependencies.
-   - Open the dist/index.html file with a browser.
+- To clone my repository run this command `git clone https://github.com/karayamanemre/javascript-capstone-project.git`
+- Run npm install to install the dependencies.
+- Open the dist/index.html file with a browser.
 
 ### Tests
 
-   - Please install Jest to your local environment. 
-   - Run tests using `npm run test` command on your terminal.
+- Please install Jest to your local environment.
+- Run tests using `npm run test` command on your terminal.
 
 ## Authors
 
@@ -70,8 +70,8 @@ Give a ⭐️ if you like this project!
 
 - [TvMaze API](https://www.tvmaze.com/api).
 - [Icons8](https://icons8.com/).
+- [Loader](https://loading.io/).
 
 ## 📝 License
 
 This project is [MIT](./LICENSE.md) licensed.
-

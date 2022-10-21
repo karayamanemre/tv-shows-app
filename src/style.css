@@ -61,6 +61,13 @@ main {
   background: var(--bg-color);
 }
 
+.loader {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  margin-top: 25px;
+}
+
 #show-list {
   display: flex;
   flex-wrap: wrap;
@@ -342,10 +349,6 @@ footer {
     gap: 10px;
   }
 
-  h2 {
-    font-size: 18px;
-  }
-
   .popup_container {
     align-self: center;
     max-width: 90%;
@@ -354,5 +357,10 @@ footer {
   .popup-header {
     display: flex;
     flex-direction: column;
+  }
+
+  footer {
+    padding: 5px 20px;
+    font-size: 18px;
   }
 }
