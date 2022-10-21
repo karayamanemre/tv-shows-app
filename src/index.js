@@ -11,6 +11,8 @@ const loader = new Image();
 const logoDiv = document.getElementById('logo');
 const loaderDiv = document.getElementById('loader');
 
+showCount();
+
 loader.src = Loader;
 logo.src = Logo;
 logoDiv.appendChild(logo);
@@ -27,7 +29,6 @@ window.addEventListener('click', (e) => {
   }
 });
 
-showCount();
 fetchData();
 getLikes();
 createList();
