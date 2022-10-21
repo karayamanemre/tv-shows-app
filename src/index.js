@@ -23,6 +23,8 @@ const listLoaded = () => {
   }
 };
 
+window.addEventListener('load', listLoaded);
+
 window.addEventListener('click', (e) => {
   if (e.target.classList.contains('like-icon')) {
     const targetId = e.target.id;
@@ -33,8 +35,6 @@ window.addEventListener('click', (e) => {
     likeDisplay.textContent = String(likeNum);
   }
 });
-
-window.addEventListener('load', listLoaded);
 
 showCount();
 fetchData();
