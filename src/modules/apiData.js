@@ -1,5 +1,6 @@
 import createList from './showList.js';
 import popUpHandler from './commentPopUp.js';
+import showCount from './itemCount.js';
 
 const loaderDiv = document.getElementById('loader');
 
@@ -14,6 +15,7 @@ const fetchData = async () => {
   createList(latestShows);
   popUpHandler(latestShows);
   listLoaded();
+  showCount();
 };
 
 export default fetchData;

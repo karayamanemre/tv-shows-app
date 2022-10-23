@@ -3,7 +3,6 @@ import Logo from './assets/logo.png';
 import createList from './modules/showList.js';
 import fetchData from './modules/apiData.js';
 import { getLikes, postLikes } from './modules/likeData.js';
-import showCount from './modules/itemCount.js';
 import Loader from './assets/loader.svg';
 
 const logo = new Image();
@@ -27,7 +26,6 @@ window.addEventListener('click', (e) => {
   }
 });
 
-showCount();
 fetchData();
 getLikes();
 createList();
