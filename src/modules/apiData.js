@@ -6,6 +6,7 @@ const loaderDiv = document.getElementById('loader');
 
 const listLoaded = () => {
   loaderDiv.hidden = true;
+  showCount();
 };
 
 const fetchData = async () => {
@@ -15,7 +16,6 @@ const fetchData = async () => {
   createList(latestShows);
   popUpHandler(latestShows);
   listLoaded();
-  showCount();
 };
 
 export default fetchData;

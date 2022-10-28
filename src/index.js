@@ -28,5 +28,4 @@ window.addEventListener('click', (e) => {
 
 getLikes();
 fetchData();
-
 createList();
