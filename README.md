@@ -17,10 +17,6 @@
 
 [Tv Shows App](https://karayamanemre.github.io/tv-shows-app/dist/)
 
-## Video Presentation
-
-- [Video Presentation](https://drive.google.com/file/d/1iIn62iQNmq0zxjRlcTpmc6d629mfq69G/view?usp=sharing)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
