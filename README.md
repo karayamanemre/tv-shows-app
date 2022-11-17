@@ -6,8 +6,6 @@
 
 ## Built With
 
-- HTML
-- CSS
 - JavaScript
 - Webpack
 - TV Maze API
